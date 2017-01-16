@@ -1,10 +1,13 @@
 <?php
+
 namespace SJBR\StaticInfoTables\Domain\Model;
 
-/***************************************************************
+/* * *************************************************************
  *  Copyright notice
  *
- * (c) 2016 Achim Fritz <af@lightwerk.com>
+ *  (c) 2011-2012 Armin Rüdiger Vieweg <info@professorweb.de>
+ *  (c) 2013 Stanislas Rolland <typo3(arobas)sjbr.ca>
+ *  (c) 2017 Ephraim Härer <ephraim.haerer@renolit.com>
  *
  *  All rights reserved
  *
@@ -23,33 +26,42 @@ namespace SJBR\StaticInfoTables\Domain\Model;
  *  GNU General Public License for more details.
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
- ***************************************************************/
+ * ************************************************************* */
+
 /**
  * The Country model
  *
  * @copyright Copyright belongs to the respective authors
  * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  */
-class Country extends AbstractEntity {
+class Country extends AbstractEntity
+{
 
 	/**
+	 * The Dutch short name
 	 * @var string
 	 */
 	protected $shortNameNl = '';
 
 	/**
+	 * Sets the Dutch short name.
+	 *
 	 * @param string $shortNameNl
+	 *
 	 * @return void
 	 */
-	public function setShortNameNl($shortNameNl) {
+	public function setShortNameNl($shortNameNl)
+	{
 		$this->shortNameNl = $shortNameNl;
 	}
 
 	/**
+	 * Gets the Dutch short name.
+	 *
 	 * @return string
 	 */
-	public function getShortNameNl() {
+	public function getShortNameNl()
+	{
 		return $this->shortNameNl;
 	}
 }
-?>

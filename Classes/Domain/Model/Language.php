@@ -1,10 +1,13 @@
 <?php
+
 namespace SJBR\StaticInfoTables\Domain\Model;
 
-/***************************************************************
+/* * *************************************************************
  *  Copyright notice
  *
- *  (c) 2016 Achim Fritz <af@lightwerk.com>
+ *  (c) 2011-2012 Armin Rüdiger Vieweg <info@professorweb.de>
+ *  (c) 2013 Stanislas Rolland <typo3(arobas)sjbr.ca>
+ *  (c) 2017 Ephraim Härer <ephraim.haerer@renolit.com>
  *
  *  All rights reserved
  *
@@ -23,7 +26,7 @@ namespace SJBR\StaticInfoTables\Domain\Model;
  *  GNU General Public License for more details.
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
- ***************************************************************/
+ * ************************************************************* */
 
 /**
  * The Language model
@@ -31,27 +34,34 @@ namespace SJBR\StaticInfoTables\Domain\Model;
  * @copyright Copyright belongs to the respective authors
  * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  */
-class Language extends AbstractEntity {
+class Language extends AbstractEntity
+{
 
 	/**
+	 * Dutch name of the language
 	 * @var string
 	 */
 	protected $nameNl = '';
 
 	/**
-	 * @param string $nameGerman
+	 * Sets the Dutch name of the language
+	 *
+	 * @param string $nameNl
 	 *
 	 * @return void
 	 */
-	public function setNameNl($nameNl) {
+	public function setNameNl($nameNl)
+	{
 		$this->nameNl = $nameNl;
 	}
 
 	/**
+	 * Gets the Dutch name of the language
+	 *
 	 * @return string
 	 */
-	public function getNameNl() {
+	public function getNameNl()
+	{
 		return $this->nameNl;
 	}
 }
-?>
