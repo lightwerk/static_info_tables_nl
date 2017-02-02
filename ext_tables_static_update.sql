@@ -1,33 +1,3 @@
-## static_territories
-UPDATE static_territories SET tr_name_nl='Afrika' WHERE tr_iso_nr='2';
-UPDATE static_territories SET tr_name_nl='Oceanië' WHERE tr_iso_nr='9';
-UPDATE static_territories SET tr_name_nl='Noord-, Midden- en Zuid-Amerika' WHERE tr_iso_nr='19';
-UPDATE static_territories SET tr_name_nl='Azië' WHERE tr_iso_nr='142';
-UPDATE static_territories SET tr_name_nl='Europa' WHERE tr_iso_nr='150';
-UPDATE static_territories SET tr_name_nl='Oost-Azië' WHERE tr_iso_nr='30';
-UPDATE static_territories SET tr_name_nl='Zuidoost-Azië' WHERE tr_iso_nr='35';
-UPDATE static_territories SET tr_name_nl='Centraal-Azië' WHERE tr_iso_nr='143';
-UPDATE static_territories SET tr_name_nl='West-Azië' WHERE tr_iso_nr='145';
-UPDATE static_territories SET tr_name_nl='Zuid-Europa' WHERE tr_iso_nr='39';
-UPDATE static_territories SET tr_name_nl='Oost-Europa' WHERE tr_iso_nr='151';
-UPDATE static_territories SET tr_name_nl='Noord-Europa' WHERE tr_iso_nr='154';
-UPDATE static_territories SET tr_name_nl='West-Europa' WHERE tr_iso_nr='155';
-UPDATE static_territories SET tr_name_nl='Zuid-Amerika' WHERE tr_iso_nr='5';
-UPDATE static_territories SET tr_name_nl='Midden-Amerika' WHERE tr_iso_nr='13';
-UPDATE static_territories SET tr_name_nl='Noord-Amerika' WHERE tr_iso_nr='21';
-UPDATE static_territories SET tr_name_nl='Caribiën' WHERE tr_iso_nr='29';
-UPDATE static_territories SET tr_name_nl='West-Afrika' WHERE tr_iso_nr='11';
-UPDATE static_territories SET tr_name_nl='Oost-Afrika' WHERE tr_iso_nr='14';
-UPDATE static_territories SET tr_name_nl='Noord-Afrika' WHERE tr_iso_nr='15';
-UPDATE static_territories SET tr_name_nl='Centraal-Afrika' WHERE tr_iso_nr='17';
-UPDATE static_territories SET tr_name_nl='Zuid-Afrika' WHERE tr_iso_nr='18';
-UPDATE static_territories SET tr_name_nl='Australië en Nieuw-Zeeland' WHERE tr_iso_nr='53';
-UPDATE static_territories SET tr_name_nl='Melanesië' WHERE tr_iso_nr='54';
-UPDATE static_territories SET tr_name_nl='Micronesië' WHERE tr_iso_nr='57';
-UPDATE static_territories SET tr_name_nl='Polynesië' WHERE tr_iso_nr='61';
-UPDATE static_territories SET tr_name_nl='Zuid-Azië' WHERE tr_iso_nr='34';
-
-
 ## static_countries
 UPDATE static_countries SET cn_short_nl='Andorra' WHERE cn_iso_2='AD';
 UPDATE static_countries SET cn_short_nl='Verenigde Arabische Emiraten' WHERE cn_iso_2='AE';
@@ -275,9 +245,6 @@ UPDATE static_countries SET cn_short_nl='Mayotte' WHERE cn_iso_2='YT';
 UPDATE static_countries SET cn_short_nl='Zuid-Afrika' WHERE cn_iso_2='ZA';
 UPDATE static_countries SET cn_short_nl='Zambia' WHERE cn_iso_2='ZM';
 UPDATE static_countries SET cn_short_nl='Zimbabwe' WHERE cn_iso_2='ZW';
-
-
-
 ## static_country_zones
 UPDATE static_country_zones SET zn_name_nl='' WHERE zn_country_iso_2='US' AND zn_code='AL';
 UPDATE static_country_zones SET zn_name_nl='' WHERE zn_country_iso_2='US' AND zn_code='AK';
@@ -748,8 +715,6 @@ UPDATE static_country_zones SET zn_name_nl='' WHERE zn_country_iso_2='BR' AND zn
 UPDATE static_country_zones SET zn_name_nl='' WHERE zn_country_iso_2='BR' AND zn_code='SE';
 UPDATE static_country_zones SET zn_name_nl='' WHERE zn_country_iso_2='BR' AND zn_code='SP';
 UPDATE static_country_zones SET zn_name_nl='' WHERE zn_country_iso_2='BR' AND zn_code='TO';
-
-
 ## static_currencies
 UPDATE static_currencies SET cu_name_nl='VAE-Dirham',cu_sub_name_nl='' WHERE cu_iso_3='AED';
 UPDATE static_currencies SET cu_name_nl='Afghani',cu_sub_name_nl='' WHERE cu_iso_3='AFN';
@@ -911,7 +876,6 @@ UPDATE static_currencies SET cu_name_nl='Jemenitische rial',cu_sub_name_nl='' WH
 UPDATE static_currencies SET cu_name_nl='Zuid-Afrikaanse rand',cu_sub_name_nl='' WHERE cu_iso_3='ZAR';
 UPDATE static_currencies SET cu_name_nl='Zambiaanse kwacha',cu_sub_name_nl='' WHERE cu_iso_3='ZMK';
 UPDATE static_currencies SET cu_name_nl='Zimbabwaanse dollar',cu_sub_name_nl='' WHERE cu_iso_3='ZWD';
-
 ## static_languages
 UPDATE static_languages SET lg_name_nl='Afar, Hamitisch' WHERE lg_iso_2='AA' AND lg_country_iso_2='';
 UPDATE static_languages SET lg_name_nl='Abchazisch' WHERE lg_iso_2='AB' AND lg_country_iso_2='';
@@ -1101,5 +1065,31 @@ UPDATE static_languages SET lg_name_nl='Zhuang, Tsjoeang' WHERE lg_iso_2='ZA' AN
 UPDATE static_languages SET lg_name_nl='Chinees' WHERE lg_iso_2='ZH' AND lg_country_iso_2='HK';
 UPDATE static_languages SET lg_name_nl='Chinees' WHERE lg_iso_2='ZH' AND lg_country_iso_2='CN';
 UPDATE static_languages SET lg_name_nl='Zoeloe' WHERE lg_iso_2='ZU' AND lg_country_iso_2='';
-
-
+## static_territories
+UPDATE static_territories SET tr_name_nl='Afrika' WHERE tr_iso_nr='2';
+UPDATE static_territories SET tr_name_nl='Oceanië' WHERE tr_iso_nr='9';
+UPDATE static_territories SET tr_name_nl='Noord-, Midden- en Zuid-Amerika' WHERE tr_iso_nr='19';
+UPDATE static_territories SET tr_name_nl='Azië' WHERE tr_iso_nr='142';
+UPDATE static_territories SET tr_name_nl='Europa' WHERE tr_iso_nr='150';
+UPDATE static_territories SET tr_name_nl='Oost-Azië' WHERE tr_iso_nr='30';
+UPDATE static_territories SET tr_name_nl='Zuidoost-Azië' WHERE tr_iso_nr='35';
+UPDATE static_territories SET tr_name_nl='Centraal-Azië' WHERE tr_iso_nr='143';
+UPDATE static_territories SET tr_name_nl='West-Azië' WHERE tr_iso_nr='145';
+UPDATE static_territories SET tr_name_nl='Zuid-Europa' WHERE tr_iso_nr='39';
+UPDATE static_territories SET tr_name_nl='Oost-Europa' WHERE tr_iso_nr='151';
+UPDATE static_territories SET tr_name_nl='Noord-Europa' WHERE tr_iso_nr='154';
+UPDATE static_territories SET tr_name_nl='West-Europa' WHERE tr_iso_nr='155';
+UPDATE static_territories SET tr_name_nl='Zuid-Amerika' WHERE tr_iso_nr='5';
+UPDATE static_territories SET tr_name_nl='Midden-Amerika' WHERE tr_iso_nr='13';
+UPDATE static_territories SET tr_name_nl='Noord-Amerika' WHERE tr_iso_nr='21';
+UPDATE static_territories SET tr_name_nl='Caribiën' WHERE tr_iso_nr='29';
+UPDATE static_territories SET tr_name_nl='West-Afrika' WHERE tr_iso_nr='11';
+UPDATE static_territories SET tr_name_nl='Oost-Afrika' WHERE tr_iso_nr='14';
+UPDATE static_territories SET tr_name_nl='Noord-Afrika' WHERE tr_iso_nr='15';
+UPDATE static_territories SET tr_name_nl='Centraal-Afrika' WHERE tr_iso_nr='17';
+UPDATE static_territories SET tr_name_nl='Zuid-Afrika' WHERE tr_iso_nr='18';
+UPDATE static_territories SET tr_name_nl='Australië en Nieuw-Zeeland' WHERE tr_iso_nr='53';
+UPDATE static_territories SET tr_name_nl='Melanesië' WHERE tr_iso_nr='54';
+UPDATE static_territories SET tr_name_nl='Micronesië' WHERE tr_iso_nr='57';
+UPDATE static_territories SET tr_name_nl='Polynesië' WHERE tr_iso_nr='61';
+UPDATE static_territories SET tr_name_nl='Zuid-Azië' WHERE tr_iso_nr='34';
