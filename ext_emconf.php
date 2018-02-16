@@ -15,7 +15,6 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'misc',
     'shy' => 0,
     'version' => '6.4.0',
-    'dependencies' => '',
     'conflicts' => '',
     'priority' => '',
     'loadOrder' => '',
@@ -32,10 +31,8 @@ $EM_CONF[$_EXTKEY] = [
     'CGLcompliance_note' => '',
     'constraints' => [
         'depends' => [
-            'static_info_tables' => '6.3.4-0.0.0',
+            'static_info_tables' => '>=6.3.4',
             'typo3' => '6.2.0-8.7.99',
-        ],
-        'conflicts' => [
         ],
         'suggests' => [
         ],
