@@ -48,7 +48,6 @@ class CountryZone extends AbstractEntity
      * Sets the Dutch name.
      *
      * @param string $nameNl
-     *
      * @return void
      */
     public function setNameNl($nameNl)

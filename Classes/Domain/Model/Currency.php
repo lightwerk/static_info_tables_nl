@@ -55,7 +55,6 @@ class Currency extends AbstractEntity
      * Sets the Dutch name of the currency
      *
      * @param string $nameNl
-     *
      * @return void
      */
     public function setNameNl($nameNl)
@@ -77,7 +76,6 @@ class Currency extends AbstractEntity
      * Sets the Dutch name of the currency subdivision
      *
      * @param string $subdivisionNameNl
-     *
      * @return void
      */
     public function setSubdivisionNameNl($subdivisionNameNl)

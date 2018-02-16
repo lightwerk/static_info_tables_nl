@@ -48,7 +48,6 @@ class Country extends AbstractEntity
      * Sets the Dutch short name.
      *
      * @param string $shortNameNl
-     *
      * @return void
      */
     public function setShortNameNl($shortNameNl)

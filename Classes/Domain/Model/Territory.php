@@ -48,7 +48,6 @@ class Territory extends AbstractEntity
      * Sets the Dutch name of the territory
      *
      * @param string $nameNl
-     *
      * @return void
      */
     public function setNameNl($nameNl)
