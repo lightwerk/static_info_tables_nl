@@ -37,31 +37,32 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 class Territory extends AbstractEntity
 {
 
-	/**
-	 * Dutch name of the territory
-	 * @var string
-	 */
-	protected $nameNl = '';
+    /**
+     * Dutch name of the territory
+     *
+     * @var string
+     */
+    protected $nameNl = '';
 
-	/**
-	 * Sets the Dutch name of the territory
-	 *
-	 * @param string $nameNl
-	 *
-	 * @return void
-	 */
-	public function setNameNl($nameNl)
-	{
-		$this->nameNl = $nameNl;
-	}
+    /**
+     * Sets the Dutch name of the territory
+     *
+     * @param string $nameNl
+     *
+     * @return void
+     */
+    public function setNameNl($nameNl)
+    {
+        $this->nameNl = $nameNl;
+    }
 
-	/**
-	 * Returns the Dutch name of the territory
-	 *
-	 * @return string
-	 */
-	public function getNameNl()
-	{
-		return $this->nameNl;
-	}
+    /**
+     * Returns the Dutch name of the territory
+     *
+     * @return string
+     */
+    public function getNameNl()
+    {
+        return $this->nameNl;
+    }
 }

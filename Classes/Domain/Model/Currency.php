@@ -37,59 +37,61 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 class Currency extends AbstractEntity
 {
 
-	/**
-	 * Dutch name of the currency
-	 * @var string
-	 */
-	protected $nameNl = '';
+    /**
+     * Dutch name of the currency
+     *
+     * @var string
+     */
+    protected $nameNl = '';
 
-	/**
-	 * Dutch name of the currency subdivision unit
-	 * @var string
-	 */
-	protected $subdivisionNameNl = '';
+    /**
+     * Dutch name of the currency subdivision unit
+     *
+     * @var string
+     */
+    protected $subdivisionNameNl = '';
 
-	/**
-	 * Sets the Dutch name of the currency
-	 *
-	 * @param string $nameNl
-	 *
-	 * @return void
-	 */
-	public function setNameNl($nameNl)
-	{
-		$this->nameNl = $nameNl;
-	}
+    /**
+     * Sets the Dutch name of the currency
+     *
+     * @param string $nameNl
+     *
+     * @return void
+     */
+    public function setNameNl($nameNl)
+    {
+        $this->nameNl = $nameNl;
+    }
 
-	/**
-	 * Gets the Dutch name of the currency
-	 *
-	 * @return string
-	 */
-	public function getNameNl()
-	{
-		return $this->nameNl;
-	}
+    /**
+     * Gets the Dutch name of the currency
+     *
+     * @return string
+     */
+    public function getNameNl()
+    {
+        return $this->nameNl;
+    }
 
-	/**
-	 * Sets the Dutch name of the currency subdivision
-	 *
-	 * @param string $subdivisionNameNl
-	 *
-	 * @return void
-	 */
-	public function setSubdivisionNameNl($subdivisionNameNl)
-	{
-		$this->subdivisionNameNl = $subdivisionNameNl;
-	}
+    /**
+     * Sets the Dutch name of the currency subdivision
+     *
+     * @param string $subdivisionNameNl
+     *
+     * @return void
+     */
+    public function setSubdivisionNameNl($subdivisionNameNl)
+    {
+        $this->subdivisionNameNl = $subdivisionNameNl;
+    }
 
-	/**
-	 * Gets the Dutch name of the currency subdivision
-	 *
-	 * @return string
-	 */
-	public function getSubdivisionNameNl()
-	{
-		return $this->subdivisionNameNl;
-	}
+    /**
+     * Gets the Dutch name of the currency subdivision
+     *
+     * @return string
+     */
+    public function getSubdivisionNameNl()
+    {
+        return $this->subdivisionNameNl;
+    }
 }

@@ -9,35 +9,35 @@
 # writing. "version" and "dependencies" must not be touched!
 ########################################################################
 
-$EM_CONF[$_EXTKEY] = array(
-	'title' => 'Static Info Tables (nl)',
-	'description' => '(nl) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
-	'category' => 'misc',
-	'shy' => 0,
-	'version' => '6.2.1',
-	'dependencies' => '',
-	'conflicts' => '',
-	'priority' => '',
-	'loadOrder' => '',
-	'module' => '',
-	'state' => 'stable',
-	'uploadfolder' => 0,
-	'createDirs' => '',
-	'clearcacheonload' => 0,
-	'lockType' => '',
-	'author' => 'Achim Fritz',
-	'author_email' => 'af@lightwerk.com',
-	'author_company' => 'RogueSheep, dare to step outside your pasture.',
-	'CGLcompliance' => '',
-	'CGLcompliance_note' => '',
-	'constraints' => array(
-		'depends' => array(
-			'static_info_tables' => '6.3.4-0.0.0',
-			'typo3' => '6.2.0-7.9.99',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
-	),
-);
+$EM_CONF[$_EXTKEY] = [
+    'title' => 'Static Info Tables (nl)',
+    'description' => '(nl) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
+    'category' => 'misc',
+    'shy' => 0,
+    'version' => '6.4.0',
+    'dependencies' => '',
+    'conflicts' => '',
+    'priority' => '',
+    'loadOrder' => '',
+    'module' => '',
+    'state' => 'stable',
+    'uploadfolder' => 0,
+    'createDirs' => '',
+    'clearcacheonload' => 0,
+    'lockType' => '',
+    'author' => 'Achim Fritz',
+    'author_email' => 'af@lightwerk.com',
+    'author_company' => 'RogueSheep, dare to step outside your pasture.',
+    'CGLcompliance' => '',
+    'CGLcompliance_note' => '',
+    'constraints' => [
+        'depends' => [
+            'static_info_tables' => '6.3.4-0.0.0',
+            'typo3' => '6.2.0-8.7.99',
+        ],
+        'conflicts' => [
+        ],
+        'suggests' => [
+        ],
+    ],
+];

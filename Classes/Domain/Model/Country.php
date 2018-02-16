@@ -37,31 +37,32 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 class Country extends AbstractEntity
 {
 
-	/**
-	 * The Dutch short name
-	 * @var string
-	 */
-	protected $shortNameNl = '';
+    /**
+     * The Dutch short name
+     *
+     * @var string
+     */
+    protected $shortNameNl = '';
 
-	/**
-	 * Sets the Dutch short name.
-	 *
-	 * @param string $shortNameNl
-	 *
-	 * @return void
-	 */
-	public function setShortNameNl($shortNameNl)
-	{
-		$this->shortNameNl = $shortNameNl;
-	}
+    /**
+     * Sets the Dutch short name.
+     *
+     * @param string $shortNameNl
+     *
+     * @return void
+     */
+    public function setShortNameNl($shortNameNl)
+    {
+        $this->shortNameNl = $shortNameNl;
+    }
 
-	/**
-	 * Gets the Dutch short name.
-	 *
-	 * @return string
-	 */
-	public function getShortNameNl()
-	{
-		return $this->shortNameNl;
-	}
+    /**
+     * Gets the Dutch short name.
+     *
+     * @return string
+     */
+    public function getShortNameNl()
+    {
+        return $this->shortNameNl;
+    }
 }

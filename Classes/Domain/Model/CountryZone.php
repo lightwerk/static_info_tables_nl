@@ -37,34 +37,35 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 class CountryZone extends AbstractEntity
 {
 
-	/**
-	 * Dutch name of the country zone
-	 * @var string
-	 */
-	protected $nameNl = '';
+    /**
+     * Dutch name of the country zone
+     *
+     * @var string
+     */
+    protected $nameNl = '';
 
-	/**
-	 * Sets the Dutch name.
-	 *
-	 * @param string $nameNl
-	 *
-	 * @return void
-	 */
-	public function setNameNl($nameNl)
-	{
-		$this->nameNl = $nameNl;
-	}
+    /**
+     * Sets the Dutch name.
+     *
+     * @param string $nameNl
+     *
+     * @return void
+     */
+    public function setNameNl($nameNl)
+    {
+        $this->nameNl = $nameNl;
+    }
 
-	/**
-	 * Returns Dutch name. If empty returns the localName.
-	 *
-	 * @return string
-	 */
-	public function getNameNl()
-	{
-		if ($this->nameNl === '') {
-			return $this->getLocalName();
-		}
-		return $this->nameNl;
-	}
+    /**
+     * Returns Dutch name. If empty returns the localName.
+     *
+     * @return string
+     */
+    public function getNameNl()
+    {
+        if ($this->nameNl === '') {
+            return $this->getLocalName();
+        }
+        return $this->nameNl;
+    }
 }

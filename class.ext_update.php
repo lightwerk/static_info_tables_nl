@@ -34,33 +34,34 @@ use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 class ext_update
 {
 
-	/**
-	 * Main function, returning the HTML content
-	 *
-	 * @return string HTML
-	 */
-	public function main()
-	{
-		$content = '';
-		/** @var \TYPO3\CMS\Extbase\Object\ObjectManager $objectManager */
-		$objectManager = GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Object\\ObjectManager');
+    /**
+     * Main function, returning the HTML content
+     *
+     * @return string HTML
+     */
+    public function main()
+    {
+        $content = '';
+        /** @var \TYPO3\CMS\Extbase\Object\ObjectManager $objectManager */
+        $objectManager = GeneralUtility::makeInstance('TYPO3\\CMS\\Extbase\\Object\\ObjectManager');
 
-		// Clear the class cache
-		/** @var \SJBR\StaticInfoTables\Cache\ClassCacheManager $classCacheManager */
-		$classCacheManager = $objectManager->get('SJBR\\StaticInfoTables\\Cache\\ClassCacheManager');
-		$classCacheManager->reBuild();
+        // Clear the class cache
+        /** @var \SJBR\StaticInfoTables\Cache\ClassCacheManager $classCacheManager */
+        $classCacheManager = $objectManager->get('SJBR\\StaticInfoTables\\Cache\\ClassCacheManager');
+        $classCacheManager->reBuild();
 
-		// Update the database
-		/** @var \SJBR\StaticInfoTables\Utility\DatabaseUpdateUtility $databaseUpdateUtility */
-		$databaseUpdateUtility = $objectManager->get('SJBR\\StaticInfoTables\\Utility\\DatabaseUpdateUtility');
-		$databaseUpdateUtility->doUpdate('static_info_tables_nl');
+        // Update the database
+        /** @var \SJBR\StaticInfoTables\Utility\DatabaseUpdateUtility $databaseUpdateUtility */
+        $databaseUpdateUtility = $objectManager->get('SJBR\\StaticInfoTables\\Utility\\DatabaseUpdateUtility');
+        $databaseUpdateUtility->doUpdate('static_info_tables_nl');
 
-		$content .= '<p>' . LocalizationUtility::translate('updateLanguageLabels', 'StaticInfoTables') . ' static_info_tables_nl.</p>';
-		return $content;
-	}
+        $content .= '<p>' . LocalizationUtility::translate('updateLanguageLabels',
+                'StaticInfoTables') . ' static_info_tables_nl.</p>';
+        return $content;
+    }
 
-	public function access()
-	{
-		return true;
-	}
+    public function access()
+    {
+        return true;
+    }
 }

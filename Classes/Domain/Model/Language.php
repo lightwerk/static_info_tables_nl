@@ -37,31 +37,32 @@ namespace SJBR\StaticInfoTables\Domain\Model;
 class Language extends AbstractEntity
 {
 
-	/**
-	 * Dutch name of the language
-	 * @var string
-	 */
-	protected $nameNl = '';
+    /**
+     * Dutch name of the language
+     *
+     * @var string
+     */
+    protected $nameNl = '';
 
-	/**
-	 * Sets the Dutch name of the language
-	 *
-	 * @param string $nameNl
-	 *
-	 * @return void
-	 */
-	public function setNameNl($nameNl)
-	{
-		$this->nameNl = $nameNl;
-	}
+    /**
+     * Sets the Dutch name of the language
+     *
+     * @param string $nameNl
+     *
+     * @return void
+     */
+    public function setNameNl($nameNl)
+    {
+        $this->nameNl = $nameNl;
+    }
 
-	/**
-	 * Gets the Dutch name of the language
-	 *
-	 * @return string
-	 */
-	public function getNameNl()
-	{
-		return $this->nameNl;
-	}
+    /**
+     * Gets the Dutch name of the language
+     *
+     * @return string
+     */
+    public function getNameNl()
+    {
+        return $this->nameNl;
+    }
 }
