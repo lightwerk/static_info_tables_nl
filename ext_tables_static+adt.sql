@@ -767,7 +767,7 @@ UPDATE static_currencies SET cu_name_nl='Falklandeilands pond',cu_sub_name_nl=''
 UPDATE static_currencies SET cu_name_nl='Britse Pound Sterling',cu_sub_name_nl='' WHERE cu_iso_3='GBP';
 UPDATE static_currencies SET cu_name_nl='Georgische lari',cu_sub_name_nl='' WHERE cu_iso_3='GEL';
 UPDATE static_currencies SET cu_name_nl='Ghanese cedi (Vervalt per 31 december 2007)',cu_sub_name_nl='' WHERE cu_iso_3='GHC';
-UPDATE static_currencies SET cu_name_nl='Ghanese cedi (Geldig per 1 juli 2007, 1 GHS = 10.000 GHC)',cu_sub_name_nl='' WHERE cu_iso_3='GHS';
+UPDATE static_currencies SET cu_name_nl='Ghanese cedi (Geldig per 1 juli 2007)',cu_sub_name_nl='' WHERE cu_iso_3='GHS';
 UPDATE static_currencies SET cu_name_nl='Gibraltarees pond',cu_sub_name_nl='' WHERE cu_iso_3='GIP';
 UPDATE static_currencies SET cu_name_nl='Gambiaanse dalasi',cu_sub_name_nl='' WHERE cu_iso_3='GMD';
 UPDATE static_currencies SET cu_name_nl='Guineese frank',cu_sub_name_nl='' WHERE cu_iso_3='GNF';
