@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = [
     'description' => '(nl) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
     'category' => 'misc',
     'shy' => 0,
-    'version' => '6.4.1',
+    'version' => '6.7.0',
     'conflicts' => '',
     'priority' => '',
     'loadOrder' => '',
@@ -31,8 +31,8 @@ $EM_CONF[$_EXTKEY] = [
     'CGLcompliance_note' => '',
     'constraints' => [
         'depends' => [
-            'static_info_tables' => '>=6.3.4',
-            'typo3' => '6.2.0-8.7.99',
+            'static_info_tables' => '>=6.7.0',
+            'typo3' => '8.7.0-9.5.99',
         ],
         'suggests' => [
         ],
