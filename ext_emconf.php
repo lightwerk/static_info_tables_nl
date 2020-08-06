@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = [
     'description' => '(nl) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
     'category' => 'misc',
     'shy' => 0,
-    'version' => '6.7.0',
+    'version' => '6.8.0',
     'conflicts' => '',
     'priority' => '',
     'loadOrder' => '',
@@ -25,14 +25,14 @@ $EM_CONF[$_EXTKEY] = [
     'clearcacheonload' => 0,
     'lockType' => '',
     'author' => 'Achim Fritz',
-    'author_email' => 'af@lightwerk.com',
+    'author_email' => 'achim.fritz@b13.com',
     'author_company' => 'RogueSheep, dare to step outside your pasture.',
     'CGLcompliance' => '',
     'CGLcompliance_note' => '',
     'constraints' => [
         'depends' => [
-            'static_info_tables' => '>=6.7.0',
-            'typo3' => '8.7.0-9.5.99',
+            'static_info_tables' => '6.7.3-6.99.99',
+            'typo3' => '8.7.0-10.99.99',
         ],
         'suggests' => [
         ],

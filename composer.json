@@ -1,7 +1,7 @@
 {
 	"name": "sjbr/static-info-tables-nl",
 	"description": "Dutch (nl) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
-	"version": "6.7.0",
+	"version": "6.8.0",
 	"type": "typo3-cms-extension",
 	"license": [
 		"GPL-2.0-or-later"
@@ -22,7 +22,7 @@
 		}
 	},
 	"require": {
-		"typo3/cms-core": "^8.7 || ^9.5",
+		"typo3/cms-core": "^8.7 || ^9.5 || ^10.0",
 		"sjbr/static-info-tables": "^6.7"
 	}
 }
