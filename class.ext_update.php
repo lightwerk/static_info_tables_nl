@@ -56,7 +56,7 @@ class ext_update
         $databaseUpdateUtility->doUpdate('static_info_tables_nl');
 
         $content .= '<p>' . LocalizationUtility::translate('updateLanguageLabels',
-                'StaticInfoTables') . ' static_info_tables_nl.</p>';
+                'StaticInfoTables', ['static_info_tables_nl']) . '</p>';
         return $content;
     }
 
